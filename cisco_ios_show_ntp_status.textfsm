@@ -1,0 +1,6 @@
+Value SYNC (\w+)
+Value STRATUM (\d+)
+Value SERVER (\d+\.\d+\.\d+\.\d+)
+
+Start
+  ^Clock is ${SYNC}, stratum ${STRATUM}, reference is ${SERVER}  -> Record
